@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Operations Simulator</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>Crypto Operations Dashboard</h1>
+
+        <div class="search-box">
+
+            <input
+                type="text"
+                id="txidInput"
+                placeholder="Enter Transaction ID">
+
+            <button onclick="searchTXID()">
+                Search
+            </button>
+
+        </div>
+
+        <div id="result">
+
+            <p>No transaction selected.</p>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
